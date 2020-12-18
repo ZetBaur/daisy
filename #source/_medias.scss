@@ -1,0 +1,347 @@
+
+@media (max-width: 1000px) {
+    .container{
+        max-width: 970px ;
+    }
+    .promo__title:after,
+    .promo__title:before{
+        display: none;
+    }
+    .portfolio__title {
+        margin: 0px 0px 20px 0px;
+    }
+    .portfolio__nav {
+     
+        margin: 0px 0px 20px 0px;
+    }
+}
+// ====================================================================================
+
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px ;
+    }
+    .slider .slick-prev{
+        left: 35%;
+    }
+
+
+    .slider .slick-next{
+        right: 35%;
+    }
+    .slider__text{
+        flex: 0 1 320px;
+    }
+
+    .service-img {
+        flex: 0 0 400px;
+    }
+
+    .process__item-big-4 {
+        position: absolute;
+        top: 20px;
+        left: 415px;
+    }
+    .process__item{
+        border-radius: 100%;
+    }
+
+    .process__item-2 {
+        top: 108px;
+        left: 241px;
+    }
+    .process__item-3 {
+        top: 247px;
+        left: 332px;
+        z-index: 20;
+    }
+    .promo__menu-item {
+        margin: 0px 0px 0px 25px;
+      
+    }
+    
+}
+
+
+
+// ====================================================================================
+
+@media (max-width: 768px) {
+    .container{
+        max-width: none;
+    }
+
+    .process__item-big-5 {
+        top: 143px;
+        left: 65px;
+        z-index: 15;
+        background-color: #fff;
+    }
+    .process__item-big-4 {
+        top: 126px;
+        left: 324px;
+        z-index: 20;
+        background-color: #fff;
+    }
+    .process__item-3 {
+        top: 0px;
+        left: 365px;
+        z-index: 35;
+    }
+    .process__item-2 {
+        top: 3px;
+        left: 191px;
+    }
+    .process__item-1 {
+        top: 6px;
+        left: 20px;
+    }
+    .promo__title{
+        text-align: center;
+        font-size: 40px;
+    }
+    .promo__subtitle{
+        text-align: center;
+    }
+    .promo__burger{
+        display: block;
+        z-index: 20;
+    }
+    .promo__menu{
+        z-index: 20;
+        position: absolute;
+        background-color: $orange;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transform: translateY(-110%);
+        transition: all .5s;
+        &.open{
+            transform: translateY(0);
+        }
+    }
+    .promo__menu-list{
+        flex-direction: column;
+
+    }
+    .promo__menu-item{
+        margin: 0;
+
+        a{
+            padding: 40px 0;
+            border: 1px solid #fe806bfa;
+            display: block;
+        }
+      
+    }
+
+    
+}
+
+// ====================================================================================
+@media (max-width: 425px){
+
+    .contacts__inner{
+        left: 20px;
+    }
+    .slider__text{
+        display: none;
+    }
+    .team__body {
+        
+        padding: 20px 0px 0px 0px;
+    }
+    .team__column-image{
+        margin: 0;
+    }
+    .title{
+        display: none;
+    }
+    .team__column-social{
+        display: none;
+    }
+    .team__row{
+        flex-wrap: wrap;
+    }
+    .title {
+        margin: 0;
+    }
+    .portfolio__tabs-item {
+       
+        flex: 0 0 100%;
+    }
+    .portfolio__nav-link {
+        padding: 0px 10px;
+        margin-bottom: 10px;
+    }
+    .portfolio__nav {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .service-info{
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+    .service-img {
+        display: none;
+    }
+    .receive__column {
+        margin-bottom: 10px;
+       
+    }
+
+    .process__item-big-5 {
+        top: 199px;
+      
+    }
+    .process__item-big-4 {
+        top: 90px;
+        left: 155px;
+        z-index: 10;
+        background-color: #fff;
+    }
+    .process__item-3 {
+        top: 133px;
+        left: 21px;
+    }
+    .process__item{
+        height: 140px;
+    }
+
+    .process__item-big{
+        height: 0;
+    }
+
+    .process__item,
+    .process__item-big{
+        border-radius: 0;
+        &:before,
+        &:after,
+        &>span{
+            display: none;
+        }
+    }
+    .receive__card-title {
+        
+        margin: 0px 0px 10px 0px;
+    }
+    .receive__card-img {
+      display: none;
+    }
+    
+    .receive__title-text {
+        font-size: 15px;
+      line-height: 1;
+        margin-bottom: 10px;
+    }
+    .receive__card {
+        background-color: antiquewhite;
+      padding: 15px 5px;
+    }
+
+    .receive__column {
+        width: 50%;
+        padding: 0 5px;
+    }
+    
+    .title {
+        font-size: 19px;
+       
+    }
+    #back2Top{
+        bottom: 20px;
+        right: 20px;
+    }
+    .receive__body {
+        
+        padding: 25px 0px 90px 0px;
+    }
+}
+// ====================================================================================
+@media (max-width: 375px){
+    .promo__title{
+        font-size: 30px;
+    }
+
+    .process__item-big-5 {
+        top: 178px;
+        left: 45px;
+    }
+
+    .process__item-big-4 {
+        top: 81px;
+        left: 127px;
+       
+    }
+    .process__item-3 {
+        top: 126px;
+        left: -10px;
+    }
+    .process__item-1 {
+        left: -6px;
+        top: 0px;
+
+    }
+    .process__item-2 {
+        top: 0px;
+        left: 164px;
+    }
+}
+// ====================================================================================
+@media (max-width: 320px){
+
+    .process__item-big-5 {
+        top: 178px;
+        left: 15px;
+    }
+    .process__item-big-4 {
+        left: 70px;
+    }
+
+    .process__item-3 {
+        top: 125px;
+        left: -25px;
+    }
+    .process__item-2 {
+        left: 130px;
+    }
+
+    .process__title-text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .process__item-1 {
+        left: -24px;
+        top: 0px;
+    }
+}
+// ====================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @media (min-width: 768px) {
+//     .promo__menu {
+//         display: flex;
+//     }
+// }
